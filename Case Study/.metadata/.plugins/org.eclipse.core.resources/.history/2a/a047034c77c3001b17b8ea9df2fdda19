@@ -1,0 +1,5 @@
+package com.example.LoginRegister.models;
+
+public class Role {
+
+}

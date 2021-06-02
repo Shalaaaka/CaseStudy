@@ -1,0 +1,87 @@
+package com.example.Registration.service;
+
+import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
+
+//import org.springframework.security.core.userdetails.User;
+import com.example.Registration.model.User;
+import com.example.Registration.model.repo.UserRepository;
+
+@Service
+public class UserService
+{
+	@Autowired
+	private UserRepository repo;
+	
+	//save user in DB
+	public User saveUser(User user)
+	{
+		return repo.save(user);
+	}
+	
+	public User fetchUserByEmailId(String email)
+	{
+		repo.findByEmailId(email);
+	}
+	
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@Autowired
+	private UserRepo repo;
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException 
+	{
+		com.example.Registration.model.User userExists=repo.findByUsername(username);
+		if (userExists==null)
+			return null;
+		
+		String name=userExists.getUsername();
+		String pwd=userExists.getPassword();
+		
+		return new User(name,pwd,null);
+	}*/

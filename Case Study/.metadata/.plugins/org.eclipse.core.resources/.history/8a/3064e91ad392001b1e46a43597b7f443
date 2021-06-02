@@ -1,0 +1,25 @@
+package com.example.Registration.model;
+
+public class AuthenticationResponse 
+{
+	private String errorResponse;
+
+	public AuthenticationResponse() {
+		super();
+	}
+
+	public AuthenticationResponse(String errorResponse) {
+		super();
+		this.errorResponse = errorResponse;
+	}
+
+	public String getErrorResponse() {
+		return errorResponse;
+	}
+
+	public void setErrorResponse(String errorResponse) {
+		this.errorResponse = errorResponse;
+	}
+	
+
+}

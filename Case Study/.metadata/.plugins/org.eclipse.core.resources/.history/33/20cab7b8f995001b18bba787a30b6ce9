@@ -1,0 +1,18 @@
+package com.example.Stores.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import com.example.Stores.model.Stores;
+import com.example.Stores.repository.StoersRepository;
+
+@Service
+public class StoresService 
+{
+	@Autowired
+	private StoersRepository repo;
+	
+	public Stores saveStore(Stores stores)
+	{
+		return repo.save(stores);
+	}
+}

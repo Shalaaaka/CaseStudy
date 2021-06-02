@@ -1,0 +1,47 @@
+package com.example.Registration.config;
+
+import java.io.IOException;
+
+import javax.servlet.FilterChain;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.filter.OncePerRequestFilter;
+
+import com.example.Registration.jwthelper.JwtClass;
+import com.example.Registration.service.ServiceClass;
+
+public class JwtFilter extends OncePerRequestFilter 
+{
+	@Autowired
+	private ServiceClass uds;
+	
+	@Autowired
+	private JwtClass jwt;
+
+	@Override
+	protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)
+			throws ServletException, IOException 
+	{
+		String tokenHeader=request.getHeader("Authorization");
+		String emailId=null;
+		String jwtToken=null;
+		if (tokenHeader!=null && tokenHeader.startsWith("Bearer "))
+		{
+			jwtToken=tokenHeader.substring(7);
+			try 
+			{
+				emailId=this.jwt.extractUsername(jwtToken);
+				
+			} catch (Exception e) 
+			{
+				// TODO: handle exception
+			}
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,59 @@
+{
+	"id":"16",
+	"storeName":"Flipkart",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-logo-transparent-vector-3.png",
+	"offPercentage":"70% OFF",
+	"shortDescription":"Beauty & Grooming – Min 30% To 70% Off On Makeup, Skin/Face/Hair Care, Fragrances & More",
+	"category":"Personal Care",
+	"subcategory":"",
+	"detailDescription":"Now Get Min 30% To 70% Off On Beauty, Grooming, Fragrances & More. Offer Includes Brands Like Lakme, Maybelline, Himalaya, Olay & More.",
+	"dealLink":"https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&p[]=facets.serviceability%5B%5D%3Dtrue&otracker=categorytree&otracker=nmenu_sub_Women_0_Beauty%20%26%20Grooming"
+}
+
+{
+	"id":"17",
+	"storeName":"Flipkart",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-logo-transparent-vector-3.png",
+	"offPercentage":"70% OFF",
+	"shortDescription":"Home & Kitchen Appliances – Upto 70% Off On Top Brands + No Cost EMI Offers",
+	"category":"Home",
+	"subcategory":"",
+	"detailDescription":"Now Avail Upto 70% Off On Home & Kitchen Products. Shop From Varieties Of Mixer Juicer Grinder, Cooktops, Blenders, Chimney, Dish Washers & More Of Brands Like Samsung, LG, IFB, Phillips & More.",
+	"dealLink":"https://www.flipkart.com/kitchen-cookware-serveware/pr?sid=upp&otracker=nmenu_sub_Home%20%26%20Furniture_0_Kitchen%2C%20Cookware%20%26%20Serveware"
+}
+
+{
+	"id":"18",
+	"storeName":"Flipkart",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-logo-transparent-vector-3.png",
+	"offPercentage":"70% OFF",
+	"shortDescription":"Personal Care – Upto 70% Off On Trimmers, Dryers, Straightener & More",
+	"category":"Personal Care",
+	"subcategory":"",
+	"detailDescription":"Get Upto 70% Off On Personal Care Appliances Like Trimmers, Shaver’s, Hair Dryers, Hair Straighteners & More From Brands Like Philips, Nova, Panasonic, Vega and More Displayed On The Deal Page. ",
+	"dealLink":"https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b&p[]=facets.serviceability%5B%5D%3Dtrue&otracker=categorytree&otracker=nmenu_sub_Women_0_Beauty%20%26%20Grooming"
+}
+
+{
+	"id":"19",
+	"storeName":"Flipkart",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-logo-transparent-vector-3.png",
+	"offPercentage":"30% OFF",
+	"shortDescription":"Footwear – Min 30% On Sandals, Shoes, Flip Flop, Casual Shoes & More",
+	"category":"Footwear",
+	"subcategory":"",
+	"detailDescription":"Get 30% To 70% Off On Footwear Listed On The Offer Page. Offer Page Also Includes Footwear From Top Brand Like Such As Puma, Nike, Adidas, Lotto, Red Tape, Fila, Reebok",
+	"dealLink":"https://www.flipkart.com/mens-footwear/pr?sid=osp,cil&otracker=nmenu_sub_Men_0_Footwear"
+}
+
+{
+	"id":"20",
+	"storeName":"Flipkart",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/flipkart-logo-png/flipkart-logo-transparent-vector-3.png",
+	"offPercentage":"40% OFF",
+	"shortDescription":"Cameras – Upto 40% Off On Canon, Sony, Nikon, GoPro & More + No Cost EMI Offers",
+	"category":"Electronics",
+	"subcategory":"Camera",
+	"detailDescription":"Now Get Upto 40% Off On Cameras, Lenses & Accessories Shown On The Deal Page. Offer Includes Such As Canon, Nikon, Fuji film, Sony, Panasonic & Many More.",
+	"dealLink":"https://www.flipkart.com/camera-clp-store?otracker=nmenu_sub_Electronics_0_Camera"
+}

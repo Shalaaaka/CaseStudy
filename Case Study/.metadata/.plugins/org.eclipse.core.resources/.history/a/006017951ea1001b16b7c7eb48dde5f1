@@ -1,0 +1,6 @@
+package com.example.Registration.jwthelper;
+
+public class JwtClass 
+{
+
+}

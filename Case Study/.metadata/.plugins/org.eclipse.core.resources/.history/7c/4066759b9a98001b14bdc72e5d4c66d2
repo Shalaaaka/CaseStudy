@@ -1,0 +1,83 @@
+package com.example.Stores.controller;
+import java.util.Collection;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.Stores.Exceptiom.AlreadyExistsException;
+import com.example.Stores.model.Stores;
+import com.example.Stores.service.StoresService;
+
+@RestController  
+public class StoresController 
+{
+	@Autowired
+	private StoresService service;
+	
+	@PostMapping("/createStores")
+	@CrossOrigin(origins="http://localhost:4200")
+	public Stores createStore(@RequestBody Stores stores) throws Exception
+	{
+		String tempId=stores.getId();
+		if (tempId!=null && !"".equals(tempId))
+		{
+			Stores storesobj=service.findStore(tempId);
+			if (storesobj!=null)
+			{
+				throw new AlreadyExistsException();
+			}
+		}
+		Stores storesobj=null;
+		storesobj=service.saveStore(stores);
+		return storesobj;
+		
+	}
+	
+	@GetMapping("/getAllStores")
+	@CrossOrigin(origins="http://localhost:4200")
+	public Collection<Stores> getAll()
+	{
+		return service.getAllStores();
+	}
+	
+	
+	@GetMapping("/getStore/{id}")
+	@CrossOrigin(origins="http://localhost:4200")
+    public Stores findStore(@PathVariable(value= "id") String id)
+	{
+		return service.findStore(id);
+    }
+	
+	
+	@DeleteMapping("/deleteStore/{id}")
+	@CrossOrigin(origins="http://localhost:4200")
+    public String deleteStore(@PathVariable(value= "id") String id) 
+	{
+        service.deleteStore(id);
+        return "Store " + id + " deleted.";
+    }
+	
+	@PutMapping("/updateStore/{id}")
+	@CrossOrigin(origins="http://localhost:4200")
+    public Stores updateStore(@PathVariable(value= "id") String id, @RequestBody Stores stores)
+	{
+		return service.Update(stores, id);
+    }
+	
+	@GetMapping("/getamazon")
+	public List<Stores> findamazon(String name)
+	{
+		name="Amazon";
+		return service.findStoreByName(name);
+	}
+	
+	
+}

@@ -1,0 +1,63 @@
+{
+	"id":"11",
+	"storeName":"Amazon",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-salary-png-logo-vector-5.png",
+	"offPercentage":"Rs.1000 OFF",
+	"shortDescription":"Offer Includes Brands Such As Oneplus, Apple, Samsung, Vivo, Oppo, Realme, Redmi & Many More. Also, Avail Upto Rs.15000 Off By Exchanging Your Old Smartphone.",
+	"category":"Electronics",
+	"subcategory":"Mobile",
+	"detailDescription":"Get Upto Rs.10,000 Off On Top Selling Mobiles & Accessories Shown On The Offer Page",
+	"dealLink":"https://www.amazon.in/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles_9292c6cb7b394d30b2467b8f631090a7&nocache=1618411737304"
+}
+
+
+{
+	"id":"12",
+	"storeName":"Amazon",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-salary-png-logo-vector-5.png",
+	"offPercentage":"70% OFF",
+	"shortDescription":"Get Upto 70% Off On Fashion Products Likes Clothing, Footwear, Accessories & More",
+	"category":"Sale",
+	"subcategory":"",
+	"detailDescription":" From Top Brands Such As UCB, USPA, Tommy Hilfiger, Levis, Puma, Adidas, Woodland, Biba Etc. ",
+	"dealLink":"https://www.amazon.in/b/_encoding=UTF8&node=7459780031&ref_=sv_top_ap_mega_1"
+}
+
+{
+	"id":"13",
+	"storeName":"Amazon",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-salary-png-logo-vector-5.png",
+	"offPercentage":"70% OFF",
+	"shortDescription":"Now Get Upto 70% Off  On Wide Range Of Home & Kitchen Appliances From Top Brand Like Usha, Bajaj, Pigeon, Philips & More.",
+	"category":"Home",
+	"subcategory":"Kitchen",
+	"detailDescription":"Discount May Vary From Product To Product. Also, Get No Cost EMI Offers On Select Products. Check Out The Offer Page For More Details.",
+	"dealLink":"https://www.amazon.in/gp/browse.htmlnode=1379989031&ref_=nav_em_sbc_hk_kitchenstorage_0_2_12_4"
+}
+
+{
+	"id":"14",
+	"storeName":"Amazon",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-salary-png-logo-vector-5.png",
+	"offPercentage":"25-70% OFF",
+	"shortDescription":"Now Get Minimum 25% To 70% Off On Footwear For Men, Women, and Kids ",
+	"category":"Footwear",
+	"subcategory":"",
+	"detailDescription":"From Top Brands Such As Puma, Adidas, Reebok, Nike, Fila, Skechers, Lotto & Many More",
+	"dealLink":"https://www.amazon.in/gp/browse.htmlnode=1983578031&ref_=nav_em_sbc_wfashion_shoes_0_2_11_14"
+}
+
+
+{
+	"id":"15",
+	"storeName":"Amazon",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/amazon-png-logo-vector/amazon-salary-png-logo-vector-5.png",
+	"offPercentage":"60% OFF",
+	"shortDescription":"Get Upto 60% OFF On Laptops, Tabs, Headphones, Speakers, Camera & Accessories Listed On The Offer Page.",
+	"category":"Electronics",
+	"subcategory":"Accessories",
+	"detailDescription":"Check out currently active deals at the offer page. Also Avail Exchange & No Cost EMI Offers On Select Products.",
+	"dealLink":"https://www.amazon.in/mobile-phones/b/ie=UTF8&node=1389401031&ref_=nav_cs_mobiles_9292c6cb7b394d30b2467b8f631090a7"
+}
+
+

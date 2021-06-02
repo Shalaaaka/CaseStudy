@@ -1,0 +1,23 @@
+package com.example.Authorization.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.Authorization.model.User;
+import com.example.Authorization.repo.UserRepo;
+
+@RestController
+public class UserController 
+{
+	@Autowired
+	private UserRepo repo;
+	
+	@PostMapping
+	public String joinGroup(@RequestBody User user)
+	{
+		repo.save(user);
+		return "Hi "+user.getFname();
+	}
+}

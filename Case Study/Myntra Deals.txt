@@ -1,0 +1,146 @@
+{
+	"id":"1",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"60% OFF",
+	"shortDescription":"Epic Fashion Sale: Flat 60% Off on Clothing, Footwear, Accessories & more",
+	"category":"Sale",
+	"subcategory":"",
+	"detailDescription":"Get flat 60% off on clothing, footwear, accessories and more. No Myntra Promo Code Required.",
+	"dealLink":"https://www.myntra.com/"
+}
+
+{
+	"id":"2",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"70% OFF",
+	"shortDescription":"Epic Fashion Sale: Upto 40-70% Off Women's Fashion",
+	"category":"Clothing",
+	"subcategory":"Women's Clothing",
+	"detailDescription":"Get upto 40-70% off on women's fashion. Extra 10% off via ICICI bank debit & credit cards on minimum purchase of Rs.3000. Maximum discount is Rs.1000.",
+	"dealLink":"https://www.myntra.com/shop/women"
+}
+
+{
+	"id":"3",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"400 OFF",
+	"shortDescription":"Flat Rs.400 off + free shipping on first order",
+	"category":"Clothing",
+	"subcategory":"Men's Clothing",
+	"detailDescription":"Get upto 40-70% off on Men's fashion. Extra 10% off via ICICI bank debit & credit cards on minimum purchase of Rs.3000. Maximum discount is Rs.1000.",
+	"dealLink":"https://www.myntra.com/shop/men"
+}
+
+{
+	"id":"4",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"10% OFF",
+	"shortDescription":"Upto 30-50% Off + Extra 10% Off on Selfcare Products above Rs. 500",
+	"category":"Personal Care",
+	"subcategory":"",
+	"detailDescription":"Get upto 30-50% off on self care products. Extra 10% off on orders above Rs. 500",
+	"dealLink":"https://www.myntra.com/personal-care"
+}
+
+
+{
+	"id":"5",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"80% OFF",
+	"shortDescription":"Upto 80% Off on Accessories, Handbags & More",
+	"category":"Accessories",
+	"subcategory":"",
+	"detailDescription":"Get upto 80% off on Women Accessories. Valid for all users",
+	"dealLink":"https://www.myntra.com/deals-jun2020"
+}
+
+{
+	"id":"6",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"Rs.599 Store",
+	"shortDescription":"The Loot Store: Everything Under Rs. 599",
+	"category":"Sale",
+	"subcategory":"",
+	"detailDescription":"Get clothing, footwear and accessories for men and women under Rs. 599. Valid for all users",
+	"dealLink":"https://www.myntra.com/under-599-store"
+}
+
+{
+	"id":"7",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"Rs.599 Store",
+	"shortDescription":"Upto 50-80% Off on Men's Footwear",
+	"category":"Footwear",
+	"subcategory":"Men's footwaer",
+	"detailDescription":"Get upto 50-80% off on men's footwear. Valid for all users.",
+	"dealLink":"https://www.myntra.com/men-footwear"
+}
+
+{
+	"id":"8",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"10% OFF",
+	"shortDescription":"Flat 10% Off on Beauty Products above Rs. 349 (New Users)",
+	"category":"Personal Care",
+	"subcategory":"",
+	"detailDescription":"Get flat 10% Off on Beauty Products above Rs. 349. Minimum purchase amount is Rs. 349.",
+	"dealLink":"https://www.myntra.com/makeup"
+}
+
+{
+	"id":"9",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"50% OFF",
+	"shortDescription":"Flat 50% Off on Home and Living Products",
+	"category":"Home",
+	"subcategory":"Decor",
+	"detailDescription":"Get flat 50% Off Home and Living Products. Minimum purchase amount is Rs. 4000.",
+	"dealLink":"https://www.myntra.com/home-decor"
+}
+
+{
+	"id":"10",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"Rs.799 Store",
+	"shortDescription":"Top Styles under Rs. 799",
+	"category":"Clothing",
+	"subcategory":"sale",
+	"detailDescription":"Get the best styles from top brands under Rs. 799. Valid for all users.",
+	"dealLink":"https://www.myntra.com/under-799"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

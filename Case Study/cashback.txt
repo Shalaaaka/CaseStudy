@@ -1,0 +1,55 @@
+{
+	"id":"1",
+	"storeName":"Myntra",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"₹ 300",
+	"description":"Get cashback Rs. 300 On minimum purchase of Rs.3,000. Apply this special coupon to get this offer",
+	"category":"Clothing",
+	"subcategory":"Men's Clothing",
+	"date":" APR 30 2021",
+    "time":" 11:30:00 P.M",
+	"code":"PREMIUM300",
+	"link":"https://www.myntra.com/premium300"
+}
+
+{
+	"id":"2",
+	"storeName":"Amazon",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"₹ 200",
+	"description":"Get cashback Rs. 200 On minimum purchase of Rs.3,000. Apply this special coupon to get this offer",
+	"category":"Footwear",
+	"subcategory":"For all",
+	"date":" APR 30 2021",
+    "time":" 11:30:00 P.M",
+	"code":"PREMIUM200",
+	"link":"https://www.amazon.in"
+}
+
+{
+	"id":"3",
+	"storeName":"Ajio",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"₹ 100",
+	"description":"Get cashback Rs. 100 On minimum purchase of Rs.3,000. Apply this special coupon to get this offer",
+	"category":"Home",
+	"subcategory":"Home decor",
+	"date":" APR 30 2021",
+    "time":" 11:30:00 P.M",
+	"code":"PREMIUM100",
+	"link":"https://www.ajio.com"
+}
+
+{
+	"id":"4",
+	"storeName":"Flipkart",
+	"storePhotoUrl":"https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-com-brand-png-0.png",
+	"offPercentage":"₹ 400",
+	"description":"Get cashback Rs. 400 On minimum purchase of Rs.3,000. Apply this special coupon to get this offer",
+	"category":"Personal Care",
+	"subcategory":"Skin and Hair",
+	"date":" APR 30 2021",
+    "time":" 11:30:00 P.M",
+	"code":"PREMIUM400",
+	"link":"https://www.flipkart.com"
+}

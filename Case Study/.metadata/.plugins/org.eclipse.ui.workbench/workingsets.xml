@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1618986234743_0" label="Java Main Sources" name="Java Main Sources"/>
+<workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1618986234760_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619190686004_7" label="OffersCashback" name="OffersCashback">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OffersCashback" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1622619075824_8" label="LoginRegister" name="LoginRegister">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LoginRegister" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1618986264036_2" label="Window Working Set" name="Aggregate for window 1618986264036"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1618988602081_3" label="Window Working Set" name="Aggregate for window 1618988602081"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1618989424501_4" label="Window Working Set" name="Aggregate for window 1618989424501"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1618992018625_5" label="Window Working Set" name="Aggregate for window 1618992018625"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1619033658689_6" label="Window Working Set" name="Aggregate for window 1619033658689"/>
+</workingSetManager>

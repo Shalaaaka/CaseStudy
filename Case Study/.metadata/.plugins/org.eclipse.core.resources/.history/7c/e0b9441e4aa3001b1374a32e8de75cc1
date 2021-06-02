@@ -1,0 +1,86 @@
+package com.example.Coupons.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.Coupons.model.Coupons;
+import com.example.Coupons.service.CouponsService;
+
+@RestController
+public class CouponsController 
+{
+	@Autowired
+	private CouponsService service;
+	
+	//Create Coupon
+	@PostMapping("/createCoupon")
+	@CrossOrigin(origins="http://localhost:4200")
+	public Coupons createCoupon(@RequestBody Coupons coupon)
+	{
+		Coupons couponObj=service.saveCoupon(coupon);
+		return couponObj;
+	}
+	
+	//Find Coupon By Id
+	@GetMapping("/findCouponById/{id}")
+	@CrossOrigin(origins="http://localhost:4200")
+	public Coupons findCouponById(@PathVariable(value= "id") String id)
+	{
+		Coupons coupon=service.findCouponById(id);
+		return coupon;
+	}
+	
+	//Find All Coupons
+	@GetMapping("/findAllCoupons")
+	@CrossOrigin(origins="http://localhost:4200")
+	public List<Coupons> findAllCoupons()
+	{
+		return service.findAllCoupons();
+	}
+	
+	//Delete Coupon By Id
+	@DeleteMapping("/deleteCouponById/{id}")
+	@CrossOrigin(origins="http://localhost:4200")
+    public String delete(@PathVariable(value= "id") String id) 
+    {	
+       service.deleteCouponById(id);
+       return "Store " + id + " deleted.";
+    }
+	
+	@PutMapping("/updateCouponById/{id}")
+	@CrossOrigin(origins="http://localhost:4200")
+	public Coupons updateCoupon(@PathVariable(value= "id") String id,@RequestBody Coupons coupon)
+	{
+		Coupons obj=service.findCouponById(id);
+		obj.setId(coupon.getId());
+		obj.setStoreName(coupon.getStoreName());
+		final Coupons updatedCoupon=service.saveCoupon(obj);
+		return updatedCoupon;
+	}
+	
+	//Find Coupon By StoreName
+	@GetMapping("/findCouponByStoreName/{storeName}")
+	@CrossOrigin(origins="http://localhost:4200")
+	public List<Coupons> findCouponByStoreName(@PathVariable(value="storeName") String storeName)
+	{
+		return service.findCouponByStore(storeName);
+	}
+	
+	//Find Coupon By Category
+	@GetMapping("/findCouponByCategory/{category}")
+	@CrossOrigin(origins="http://localhost:4200")
+	public List<Coupons> findCouponByCategory(@PathVariable(value="category") String category)
+	{
+		return service.findCouponByCategory(category);
+	}
+	
+}

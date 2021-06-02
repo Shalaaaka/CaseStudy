@@ -1,0 +1,9 @@
+package com.example.Registration.model.repo;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+@Repository
+public class UserRepo implements MongoRepository<User, String> 
+{
+
+}

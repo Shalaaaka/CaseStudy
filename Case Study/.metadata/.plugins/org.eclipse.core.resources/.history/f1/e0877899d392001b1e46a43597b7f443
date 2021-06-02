@@ -1,0 +1,137 @@
+package com.example.Registration.service;
+
+import java.util.ArrayList;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.GetMapping;
+
+//import org.springframework.security.core.userdetails.User;
+import com.example.Registration.model.User;
+import com.example.Registration.model.repo.UserRepository;
+
+@Service
+public class UserService
+{
+	@Autowired
+	private UserRepository repo;
+	
+	//save user in DB
+	public User saveUser(User user)
+	{
+		return repo.save(user);
+	}
+	
+	public User fetchUserByEmailId(String email)
+	{
+		return repo.findByEmailId(email);
+	}
+	
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@Autowired
+	private UserRepo repo;
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException 
+	{
+		com.example.Registration.model.User userExists=repo.findByUsername(username);
+		if (userExists==null)
+			return null;
+		
+		String name=userExists.getUsername();
+		String pwd=userExists.getPassword();
+		
+		return new User(name,pwd,null);
+	}*/
+/*
+ * package com.example.Registration.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.password.NoOpPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.example.Registration.service.UserService;
+
+@EnableWebSecurity
+public class SecurityConfig extends WebSecurityConfigurerAdapter
+{
+	@Autowired
+	public UserService service;
+	
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception 
+	{
+		auth.userDetailsService(service);
+	}
+	
+	@Override
+	protected void configure(HttpSecurity http) throws Exception 
+	{
+		http.csrf().disable().authorizeRequests().antMatchers("/register","/auth").permitAll().anyRequest().authenticated();	
+	}
+	
+	@Bean
+	public PasswordEncoder passwordEncoder()
+	{
+		return NoOpPasswordEncoder.getInstance();
+	}
+	
+	//AuthenticationManager authenticate user
+	@Override
+	@Bean
+	public AuthenticationManager authenticationManagerBean() throws Exception 
+	{
+		return super.authenticationManagerBean();
+	}
+}
+
+ * */
+ */
